@@ -13,7 +13,7 @@ let myserver = myhttp.createServer(
     if(myrequest.url === "/hey"){
        mytext = "Well hello there...";
     }else{
-       mytext = "I don't know you!";
+       mytext = "Welcome All";
     }
 
     mytext = mytext + " - Please help me... I am trapped in a Node.js server!";
